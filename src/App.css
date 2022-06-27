@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,42 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 500px;
+  height: 80vh;
+  border-radius: 10px;
+  background-color: #ADD8E6;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.cityName {
+  font-size: 20px;
+}
+
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+  margin-left: 20px;
+  margin-right: 20px;
 }
