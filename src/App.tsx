@@ -102,7 +102,7 @@ function App() {
                 style={{ width: "100%" }}
                 id="input-with-icon-textfield"
                 placeholder="Tìm kiếm thành phố"
-                value={debounceKeyword}
+                value={keyword}
                 onChange={(e: any) => handleOnChange(e)}
                 InputProps={{
                   startAdornment: (
